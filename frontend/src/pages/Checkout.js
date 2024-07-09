@@ -1,37 +1,43 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import background from "../images/cart-bg.png";
+import logo from "../images/logo.png";
+import "../styles/Checkout.css";
 
 const Checkout = () => {
     return (
         <div className="checkout-page">
-            <div className="checkout-header">
+            <div className="checkout-header" style={{ backgroundImage: `url(${background})` }}>
                 <Navbar />
-                <img src="" alt="" />
-                <h2>Checkout</h2>
-                <p>Home - Cart - Checkout</p>
+                <div className="checkout-head">
+                    <img src={logo} alt="logo" className="logo" />
+                    <h2>Checkout</h2>
+                    <p>Home &gt; Cart &gt; Checkout</p>
+                </div>
+                
             </div>
             <div className="checkout-body">
                 <div className="contact-details">
                     <h3>Contact details</h3>
-                    <div>
-                        <div>
+                    <div className="names">
+                        <div className="inputs">
                             <label for="first-name">First Name</label>
                             <input type="text" id="first-name" />
                         </div>
-                        <div>
+                        <div className="inputs">
                             <label for="last-name">Last Name</label>
                             <input type="text" id="last-name" />
                         </div>
                     </div>
-                    <div>
+                    <div className="inputs">
                         <label for="address">Address</label>
                         <input type="text" id="address" />
                     </div>
-                    <div>
+                    <div className="inputs">
                         <label for="phone-number">Phone Number</label>
                         <input type="tel" id="phone-number" />
                     </div>
-                    <div>
+                    <div className="inputs">
                         <label for="email">E-mail</label>
                         <input type="email" id="email" />
                     </div>
@@ -63,22 +69,22 @@ const Checkout = () => {
                     <div className="payment-method">
                         <h3>Payment Method</h3>
                         <div>
-                            <div>
-                                <input type="radio" id="cash" name="payment" />
+                            <div className="radios">
+                                <input type="radio" id="cash" name="payment" checked />
                                 <label for="cash">Cash On Delivery</label>
                             </div>
-                            <div>
+                            <div className="radios">
                                 <input type="radio" id="card" name="payment" />
                                 <label for="card">Card Payment</label>
                             </div>
-                            <div>
+                            <div className="radios">
                                 <input type="radio" id="bank" name="payment" />
                                 <label for="bank">Direct Bank Transfer</label>
                             </div>
                         </div>
 
                     </div>
-                    <button type="button">Place Order</button>
+                    <button type="button" className="order-btn">Place Order</button>
                 </div>
             </div>
             <Footer />

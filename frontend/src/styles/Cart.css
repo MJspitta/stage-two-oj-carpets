@@ -1,0 +1,105 @@
+.cart-page {
+    width: 100%;
+}
+.cart-header {
+    background-repeat: no-repeat;
+    height: 35vh;
+}
+.cart-head {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 24px;
+    color: white;
+    gap: 10px;
+}
+.cart-head .logo {
+    width: 100px;
+    height: 50px;
+}
+.checkout-btn {
+    align-self: flex-end;
+    padding: 8px 32px;
+    background: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.c-btn {
+    border: none;
+    background: none;
+    font-weight: 500;
+    font-size: 16px;
+}
+.cart-body {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0 60px;
+}
+.cart-product {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.cp-image {
+    width: 30%;
+    border-radius: 10px;
+}
+.cp-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+.cp-body {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cpb-head {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.cpb-head h2 {
+    font-size: 40px;
+}
+.cpb-head .per-discount {
+    background-color: #E97171;
+    border-radius: 50%;
+    padding: 10px;
+}
+.measure {
+    font-size: 16px;
+}
+.price {
+    font-size: 40px;
+    font-weight: 600;
+}
+.price-per {
+    font-size: 15px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.65);
+}
+.fav {
+    font-size: 13px;
+    color: rgba(159, 159, 159, 1);
+}
+.prod-text {
+    font-size: 18px;
+    color: black;
+}
+.req-ins-check {
+    display: flex;
+    align-items: center;
+}
+.req-ins-box {
+    font-size: 22px;
+    font-weight: 500;
+    margin-right: 16px;
+}
+
+

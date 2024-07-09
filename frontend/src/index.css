@@ -10,3 +10,7 @@ body {
   background-color: #D3F8DD;
   font-family: "Inter", sans-serif;
 }
+
+button:hover {
+  cursor: pointer;
+}
