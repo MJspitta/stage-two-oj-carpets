@@ -1,0 +1,14 @@
+{
+  "name": "stage-two-oj-carpets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install-frontend": "cd frontend && npm install",
+    "build-frontend": "cd frontend && npm run build",
+    "start-frontend": "cd frontend && npm run start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
