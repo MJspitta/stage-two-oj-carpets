@@ -1,0 +1,171 @@
+header {
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(90%);
+    padding-top: 20px;
+}
+
+.header-body {
+    display: flex;
+    width: 90%;
+    margin: 150px auto 0;
+    justify-content: center;
+    text-align: center;
+}
+
+.hb-left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    color: white;
+    gap: 10px;
+}
+.hb-left h1 {
+    font-weight: 700;
+    font-size: 48px;
+    margin-top: 50px;
+}
+.hb-left h3 {
+    font-weight: 400;
+}
+
+.hb-right {
+    width: 42%;
+}
+
+.product-section {
+    width: 90%;
+    margin: 30px auto;
+    text-align: center;
+}
+.product-section h3 {
+    font-weight: 600;
+    font-size: 24px;
+}
+.product-containers {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+.ps-container {
+    width: 25%;
+    height: 400px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 8px;
+}
+.ps-container span {
+    font-weight: 600;
+}
+
+.client-section {
+    background-color: #39D480;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 25%;
+    text-align: center;
+    color: white;
+    margin-bottom: 40px;
+}
+.client-section h2 {
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+.send-email {
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 6px 10px;
+    margin-top: 16px;
+}
+.send-email input {
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+}
+.send-email input:focus {
+    outline: none;
+}
+.send-email button {
+    padding: 4px 8px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-size: 28px;
+    font-weight: 500;
+}
+.carpet-section {
+    text-align: center;
+}
+.carpet-section h3 {
+    font-size: 24px;
+    font-weight: 600;
+}
+.carpet-section .products {
+    margin: 16px 5%;
+}
+.carpet-section button {
+    padding: 8px 32px;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.industrial-sec, .rug-sec, .grass-sec {
+    margin-bottom: 40px;
+}
+.products {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.product {
+    text-align: left;
+    width: 20%;
+    height: 400px;
+}
+.product-img {
+    height: 70%;
+    background-repeat: no-repeat;
+    border-radius: 10px 10px 0 0;
+}
+.product-discount {
+    background-color: #2EC1AC;
+    padding: 16px;
+    color: white;
+    border-radius: 50%;
+    position: relative;
+    top: 24px;
+    left: 16px;
+}
+.product-info {
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+    padding: 12px;
+}
+.product-info p {
+    font-size: 12px;
+    margin: 4px 0;
+}
+.product-price {
+    font-size: 16px;
+}
+.product-size {
+    font-size: 12px;
+    font-weight: 400;
+}
